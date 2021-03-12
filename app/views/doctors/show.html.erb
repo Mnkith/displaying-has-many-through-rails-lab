@@ -1,0 +1,5 @@
+<p id="notice"><%= notice %></p>
+<h5><% @doctor.appointments.each do |a| %></h5>
+  <%= a.human_readable %>
+  <%= link_to a.patient.name, patient_path(a.patient) %>
+<% end %>

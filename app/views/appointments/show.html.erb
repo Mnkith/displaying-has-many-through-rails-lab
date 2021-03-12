@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+<%# <h5><% binding.pry %></h5> %>
+<h5><%= link_to @appointment.doctor.name, doctor_path(@appointment.doctor) %></h5>
+<h5><%= link_to @appointment.patient.name, patient_path(@appointment.patient) %></h5>
+<h5><%= @appointment.human_readable %></h5>
+<h5></h5>
+

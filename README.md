@@ -1,5 +1,5 @@
 # Displaying Has Many Through Rails Lab
-
+ 
 ## Objectives
 
 1. Construct a bi-directional has many through.

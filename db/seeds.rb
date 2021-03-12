@@ -7,7 +7,7 @@ hawkeye = Doctor.create({name: "Hawkeye Pierce", department: "Surgery"})
 leonard = Doctor.create({name: "Leonard 'Bones' McCoy", department: "Internal Medicine"})
 phillip = Doctor.create({name: "Phillip Chandler", department: "Internal Medicine"})
 michaela = Doctor.create({name: "Michaela Quinn", department: "Internal Medicine"})
-
+ 
 homer = Patient.create({name: "Homer Simpson", age: 38})
 bart = Patient.create({name: "Bart Simpson", age: 10})
 marge = Patient.create({name: "Marge Simpson", age: 36})
